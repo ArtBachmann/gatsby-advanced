@@ -1,7 +1,7 @@
 const withDefaults = require('./utils/default-options')
 
 module.exports = options => {
-  const { contenPath, useExternalMDX } = withDefaults(options)
+  const { contentPath, useExternalMDX } = withDefaults(options)
 
   return {
     plugins: [
@@ -9,7 +9,7 @@ module.exports = options => {
         resolve: `gatsby-source-filesystem`,
         options: {
           name: `gatsby-theme-docs`,
-          path: contenPath,
+          path: contentPath,
         },
       },
       !useExternalMDX && {

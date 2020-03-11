@@ -6,6 +6,7 @@
   "dependencies": {
     "@mdx-js/mdx": "^1.5.7",
     "@mdx-js/react": "^1.5.7",
+    "gatsby": "^2.19.34",
     "gatsby-plugin-mdx": "^1.0.78",
     "gatsby-source-filesystem": "^2.1.51",
     "mkdirp": "^1.0.3"
