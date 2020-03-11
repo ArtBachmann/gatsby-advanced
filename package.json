@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
   "name": "theme-dev",
   "version": "1.0.0",
   "main": "index.js",
@@ -13,4 +14,11 @@
     "react": "^16.13.0",
     "react-dom": "^16.13.0"
   }
+=======
+  "private": true,
+  "workspaces": [
+    "packages/*",
+    "sites/*"
+  ]
+>>>>>>> 937ba0eca4c5471904eeaedbf8a62edd616c0afd
 }
